@@ -1,0 +1,17 @@
+<nav class="navbar navbar-dark navbar-expand-lg opacity-75">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{{"/" | relative_url }}">{{site.title}}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' |prepend: site.baseurl }}">Home</a>
+                <a class="nav-link {% if page.url == '/mission/' %}active{% endif %}" href="{{ '/mission/' |prepend: site.baseurl }}">Our Mission</a>
+                <a class="nav-link {% if page.url == '/projects/' %}active{% endif %}" href="{{'/projects/'|prepend: site.baseurl }}">What We Do</a>
+                <a class="nav-link {% if page.url == '/about/' %}active{% endif %}" href="{{ '/about/' |prepend: site.baseurl }}">Who We Are</a>
+                <a class="nav-link {% if page.url == '/contact/' %}active{% endif %}" href="{{ '/contact/' |prepend: site.baseurl }}">Contact Us</a>  
+            </div>
+        </div>
+    </div>
+</nav>
