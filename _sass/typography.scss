@@ -1,4 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Rubik&display=swap");
 .krona-one {
   font-family: "Krona One", sans-serif;
+}
+
+.nav-link {
+  font-family: "Rubik", sans-serif;
+}
+
+@import url("https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css");
+.computer-modern {
+  font-family: "Computer Modern Serif", serif;
 }

@@ -4,88 +4,89 @@ title: Contact Us
 permalink: /contact/
 ---
 
-<div class="p-4">
-  <form
-    id="contact-form"
-    role="form"
-    action="https://formspree.io/f/xwkydyjn"
-    method="POST"
-  >
-    <div class="controls">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="form_name">First Name</label>
-            <input
-              id="form_name"
-              type="text"
-              name="name"
-              class="form-control"
-              placeholder="John"
-              required
-              data-error="Firstname is required."
-            />
+<div class="row">
+  <div class="p-4 col">
+    <form
+      id="contact-form"
+      role="form"
+      action="https://formspree.io/f/xwkydyjn"
+      method="POST"
+    >
+      <div class="controls">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_name">First Name</label>
+              <input
+                id="form_name"
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="John"
+                required
+                data-error="Firstname is required."
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_lastname">Last Name</label>
+              <input
+                id="form_lastname"
+                type="text"
+                name="surname"
+                class="form-control"
+                placeholder="Doe"
+                required
+                data-error="Lastname is required."
+              />
+            </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="form_lastname">Last Name</label>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="form_email">Email</label>
+              <input
+                id="form_email"
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="JDoe@Email.com"
+                required
+                data-error="Valid email is required."
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="form_message">Message</label>
+              <textarea
+                id="form_message"
+                name="message"
+                class="form-control"
+                placeholder="Write your message here."
+                rows="4"
+                required
+                data-error="Please, leave us a message."
+              ></textarea>
+            </div>
+          </div>
+          <div class="col-md-12 mt-1">
             <input
-              id="form_lastname"
-              type="text"
-              name="surname"
-              class="form-control"
-              placeholder="Doe"
-              required
-              data-error="Lastname is required."
+              type="submit"
+              class="btn btn-primary text-light btn-send pt-2 btn-block"
+              value="Send Message"
             />
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="form_email">Email</label>
-            <input
-              id="form_email"
-              type="email"
-              name="email"
-              class="form-control"
-              placeholder="JDoe@Email.com"
-              required
-              data-error="Valid email is required."
-            />
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="form_message">Message</label>
-            <textarea
-              id="form_message"
-              name="message"
-              class="form-control"
-              placeholder="Write your message here."
-              rows="4"
-              required
-              data-error="Please, leave us a message."
-            ></textarea>
-          </div>
-        </div>
-
-        <div class="col-md-12 mt-1">
-          <input
-            type="submit"
-            class="btn btn-primary text-light btn-send pt-2 btn-block"
-            value="Send Message"
-          />
-          <p>
-            *Alternatively, please send an email to
-            <a href="mailto:snapfse@gmail.com">snapfse@gmail.com</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-  </form>
+    </form>
+  </div>
+  <div class="col">
+    <p>Or you can contact us via:</p>
+    <li>Email - <a href="mailto:snapfse@gmail.com">snapfse@gmail.com</a></li>
+  </div>
 </div>
