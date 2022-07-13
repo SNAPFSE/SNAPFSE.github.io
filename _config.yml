@@ -19,5 +19,8 @@ plugins:
 include:
   - _pages
 
+collections:
+  - _people
+
 paginate: 4
 paginate_path: "/events/page:num/"
