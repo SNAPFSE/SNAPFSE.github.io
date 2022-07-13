@@ -15,7 +15,7 @@ The SNAP App offers a new social media platform for neurodiverse friends to meet
 # SNAP Research
 After the development of the SNAP App, we realized that there was limited research in the best ways to have social intervention that best supports these children. SNAP Research was made to find the best social intervention to help Autism Spectrum Disorder (ASD) Adolescence with their social impairment and aid them in adjusting to a neurotypical based world. The hope is that this research can help in calibrating the best ways to help ASD individuals with social compliance and resilience. To read more about the research thesis, access the abstract below!
 <div class="text-center">
-    <a class="btn btn-primary disabled">See Abstract</a>
+    <a class="btn btn-primary" href="{{site.baseurl}}/assets/abstract.pdf">See Abstract</a>
 </div>
 
 # SRI
