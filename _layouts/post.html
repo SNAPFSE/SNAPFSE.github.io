@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %} {% include styles.html %}
+  <body>
+    <header>{% include navbar.html %}</header>
+    <div class="container">
+      <h1 class="text-light text-center">{{ page.title }}</h1>
+      <div class="rounded bg-whitesmoke p-4 m-1">
+        <article>{{ content }}</article>
+        <a
+          class="btn btn-primary text-light"
+          href="{{ '/news/' |prepend: site.baseurl }}"
+          >Back</a
+        >
+      </div>
+    </div>
+    {% include footer.html %} {% include scripts.html %}
+  </body>
+</html>

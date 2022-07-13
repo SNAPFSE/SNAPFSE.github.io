@@ -4,6 +4,7 @@
 @import "hero";
 @import "myVariables";
 @import "bootstrap/bootstrap";
+@import "typography";
 
 body {
   margin: 0;
@@ -27,10 +28,19 @@ body {
 .bg-whitesmoke {
   background-color: whitesmoke;
 }
-article {
-  padding: 1em;
-}
 
 .footer {
-  border-top: solid rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.1);
+}
+
+.news-list {
+  max-width: 35em;
+  @extend .rounded;
+  @extend .bg-whitesmoke;
+  @extend .p-4;
+  @extend .m-1;
+  @extend .col-sm;
+  @extend .text-center;
+  @extend .news-list;
+  @extend .mx-auto;
 }

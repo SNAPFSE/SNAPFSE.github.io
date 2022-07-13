@@ -1,0 +1,60 @@
+---
+layout: default
+title: News
+---
+
+<!-- This loops through the paginated posts -->
+<div class="container-sm">
+  {% for post in paginator.posts %}
+  <div class="news-list">
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+      {% if post.coverimage %}
+      <img src="{{ post.coverimage }}" class="mx-auto img-fluid" />
+      {% endif %}
+    </a>
+    <h2 class="post-title" itemprop="name">
+      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    {% if post.date %}
+    <p>
+      <mark>
+        <time> {{ post.date | date: "%B %d, %Y" }} </time>
+      </mark>
+    </p>
+    {% endif %}
+    <p>
+      <a href="{{ site.url }}{{ post.url }}">Read More</a>
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="row items-center m-3">
+  <div class="col-sm">
+    {% if paginator.previous_page %}
+    <a
+      href="{{ paginator.previous_page_path }}"
+      class="btn btn-primary text-light"
+    >
+      Previous
+    </a>
+    {% else %}
+    <a class="disabled btn btn-primary text-light">Previous</a>
+    {% endif %}
+  </div>
+  <div class="col-sm text-center text-light">
+    <span class="page_number align-text-bottom">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+  </div>
+  <div class="col-sm text-end">
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="btn btn-primary text-light"
+      >Next</a
+    >
+    {% else %}
+    <span class="disabled btn btn-primary text-light">Next</span>
+    {% endif %}
+  </div>
+</div>
