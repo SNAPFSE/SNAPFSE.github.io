@@ -1,7 +1,7 @@
 ---
 name: Zachary Miller
 title: Founder & President
-image: miller.jpeg
+image: Zachary Miller.jpeg
 email: zachamiller@pitt.edu
 linkedin: https://www.linkedin.com/in/zacharyalexmiller/
 category: 0
