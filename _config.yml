@@ -21,7 +21,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-
 # Include Pages
 include:
   - _pages
