@@ -1,1 +1,6 @@
-<link rel="stylesheet" href="{{"/assets/styles.css" | absolute_url }}">
+<link rel="preload" href="{{"/assets/styles.css" | absolute_url }}" as="style"
+onload="this.onload=null;this.rel='stylesheet'" />
+<noscript
+  ><link rel="stylesheet" href="{{"/assets/styles.css" | absolute_url }}"
+  /></noscript
+>
