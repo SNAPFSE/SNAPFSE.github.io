@@ -31,7 +31,7 @@ The SNAP Research Initiative (SRI) was created to be a link between the two plat
 ---
 
 # The SNAP Club
-The SNAP club was created to help all the other programs. There essential mission is to Create, Make, Volunteer, Inform, and Collaborate. The goal is to create a platform that allows for the neurodiverse and neurotypical communities to interact and communicate. The members will help make events to interact more with the neurodiverse community, volunteer within hospitals to help special needs individuals, inform and present to the public about different neurological disorders, and collaborate with other aspects of SNAP and the neurodiverse community to spread happiness and friendships. To be a part of fun, click “Register” below!
+The SNAP club was created to help all the other programs. There essential mission is to Create, Make, Volunteer, Inform, and Collaborate. The goal is to create a platform that allows for the neurodiverse and neurotypical communities to interact and communicate. The members will help make events to interact more with the neurodiverse community, volunteer within hospitals to help special needs individuals, inform and present to the public about different neurological disorders, and collaborate with other aspects of SNAP and the neurodiverse community to spread happiness and friendships. To be a part of fun, click “Join Now” below!
 <div class="text-center">
-    <a class="btn btn-primary" href="{{site.baseurl}}/register/">Join Now</a>
+    <a class="btn btn-primary" href="{{site.baseurl}}/join/">Join Now</a>
 </div>
