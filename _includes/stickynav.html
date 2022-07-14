@@ -1,0 +1,14 @@
+<script>
+  const navbar = document.getElementById("navbar");
+  window.onscroll = () => {
+    if (window.scrollY > 40) {
+      navbar.classList.add("bg-success");
+      navbar.classList.add("fixed-top");
+      document.getElementsByTagName("body")[0].style.marginTop = "40px";
+    } else {
+      navbar.classList.remove("bg-success");
+      navbar.classList.remove("fixed-top");
+      document.getElementsByTagName("body")[0].style.marginTop = "0";
+    }
+  };
+</script>

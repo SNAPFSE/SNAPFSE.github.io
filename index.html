@@ -2,9 +2,11 @@
 layout: home
 ---
 
-<section class="hero-image">
-  <header>{% include navbar.html %}</header>
-  <div class="hero-text">
+<header>{% include navbar.html %}</header>
+<section
+  class="hero-image d-flex flex-column justify-content-center align-items-center"
+>
+  <div class="mt-5 pt-5 row text-center text-light w-50 mx-auto" id="lead">
     <h1>Special Needs Assistance Program for Social Engagement</h1>
     <p>
       <span class="lead">Welcome to SNAP!</span><br />
@@ -16,12 +18,7 @@ layout: home
       love and support for neurodiversity.
     </p>
     <a href="#what-we-do">
-      <img
-        src="https://img.icons8.com/ios/50/FFFFFF/circled-chevron-down.png"
-        alt="Down Arrow"
-        width="50px"
-        class="enlargeable"
-      />
+      <i class="arrow-circle-down-icon align-middle display-3 enlargeable"></i>
     </a>
   </div>
 </section>
@@ -200,3 +197,18 @@ layout: home
     background-color: black !important;
   }
 </style>
+<script>
+  const navbar = document.getElementById("navbar");
+  window.onload = () => {
+    navbar.classList.add("bg-dark");
+  };
+  window.onscroll = () => {
+    if (window.scrollY > 40) {
+      navbar.classList.add("fixed-top");
+      document.getElementsByTagName("body")[0].style.marginTop = "40px";
+    } else {
+      navbar.classList.remove("fixed-top");
+      document.getElementsByTagName("body")[0].style.marginTop = "0";
+    }
+  };
+</script>

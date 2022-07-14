@@ -1,6 +1,5 @@
-<nav class="navbar navbar-dark navbar-expand-lg">
+<nav class="navbar navbar-dark navbar-expand-lg" id="navbar">
     <div class="container-fluid">
-      
         <a class="navbar-brand krona-one" href="{{"/" | relative_url }}">  <img src="{{site.baseurl}}/assets/logo.png" alt="" width="auto" height="30" class="d-inline-block align-text-top">
             SNAP</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,7 +11,7 @@
                     <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' |prepend: site.baseurl }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {% if page.url == '/events/' %}active{% endif %}" href="{{ '/events/' |prepend: site.baseurl }}">Events</a>
+                    <a class="nav-link {% if page.url == '/blog/' %}active{% endif %}" href="{{ '/blog/' |prepend: site.baseurl }}">Our Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {% if page.url == '/story/' %}active{% endif %}" href="{{ '/story/' |prepend: site.baseurl }}">Our Story</a>
