@@ -4,14 +4,42 @@
   <body>
     <header>{% include navbar.html %}</header>
     <div class="container">
-      <h1 class="text-light text-center">{{ page.title }}</h1>
+      <div class="text-center">
+        <h1 class="text-light">{{ page.title }}</h1>
+        {% if page.date %}
+        <p class="text-light lead">
+          <time> {{ page.date | date: "%B %d, %Y" }} </time>
+        </p>
+        {% endif %}
+      </div>
       <div class="rounded bg-whitesmoke p-4 m-1">
+        <div class="align-self-end">
+          <a class="text-decoration-none" href="{{ '/blog/' |prepend: site.baseurl }}">
+            <p class="">Return to Blog</h6>
+          </a>
+        </div>
         <article>{{ content }}</article>
-        <a
-          class="btn btn-primary text-light"
-          href="{{ '/events/' |prepend: site.baseurl }}"
-          >Back</a
-        >
+
+        <div class="d-flex justify-content-between mt-5">
+          {% if page.previous.url %}
+          <a
+            class="text-decoration-none text-start"
+            href="{{page.previous.url}}"
+          >
+            <span>&laquo; Previous</span>
+            <h4 class="text-decoration-underline">{{page.previous.title}}</h4>
+          </a>
+          {% else %}
+          <div></div>
+          {% endif %} {% if page.next.url %}
+          <a class="text-decoration-none text-end" href="{{page.next.url}}">
+            <span>Next &raquo;</span>
+            <h4 class="text-decoration-underline">{{page.next.title}}</h4>
+          </a>
+          {% else %}
+          <div></div>
+          {% endif %}
+        </div>
       </div>
     </div>
     {% include footer.html %} {% include scripts.html %}{% include
