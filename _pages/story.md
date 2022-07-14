@@ -2,6 +2,7 @@
 layout: page
 title: Our Story
 permalink: /story/
+description: Learn how SNAP got its start and what we're all about!
 ---
 
 <div class="float-start w-25 m-2">

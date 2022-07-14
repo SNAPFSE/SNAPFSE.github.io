@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
+description: Learn about what we are doing at SNAP!
 ---
 # SNAP App
 The SNAP App offers a new social media platform for neurodiverse friends to meet, interact, and discover one another. The app will feature:
