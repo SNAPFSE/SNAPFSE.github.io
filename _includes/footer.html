@@ -1,13 +1,50 @@
-<!-- Footer -->
-<footer class="text-center footer">
-  <p class="text-light m-0">
-    © 2022 Copyright {{ site.title }}. All Rights Reserved
-  </p>
-  <p class="m-0">
-    <a class="text-light" href="mailto:{{ site.email }}">{{ site.email }}</a>
-  </p>
-  <p class="m-0">
-    <a class="text-light" href="tel:{{ site.phone }}">{{ site.phone }}</a>
-  </p>
+<footer class="text-lg-start text-light footer">
+  <div class="container text-md-start mt-1">
+    <div class="row mt-3">
+      <div class="col-sm-8 mx-auto">
+        <div class="float-start mx-2" style="max-width: 11%">
+          <img
+            class="rounded d-block img-fluid"
+            alt="SNAP Logo"
+            src="{{ site.baseurl }}/assets/square-logo.jpg"
+          />
+        </div>
+        <h6 class="text-uppercase fw-bold mb-1">{{ site.full-title }}</h6>
+        <p class="mb-0">{{ site.description }}</p>
+        <p>© 2020 SNAP. All Rights Reserved.</p>
+      </div>
+      <div
+        class="col-sm-4 mx-auto mb-md-0 d-flex text-center text-sm-end justify-content-around"
+      >
+        <div class="row row-cols-2 row-cols-sm-1">
+          <div>
+            <p class="m-0">Pittsburgh, PA 15260, US</p>
+            <p class="m-0">
+              <a href="mailto:{{ site.email }}" class="text-light">
+                {{ site.email }}
+              </a>
+            </p>
+            <p>
+              <a
+                href="tel:{{ site.phone }}"
+                class="text-light text-decoration-none"
+              >
+                {{ site.phone }}
+              </a>
+            </p>
+          </div>
+          <div>
+            <p>
+              <a
+                class="text-light text-sm-end"
+                href="{{site.baseurl}}/privacy/"
+              >
+                Privacy Notice
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
-<!-- Footer -->
