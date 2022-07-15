@@ -11,4 +11,4 @@ Shinwoo Kim is the Chief Technical Officer at SNAP and is responsible for design
 
 Originally from *South Korea*, Shinwoo moved to the United States in 2012 and has had many experiences working with diverse groups of people. He has lived in many places in the US, including *Monterey*(*California*), *Philadelphia*, and *Pittsburgh*.
 
-Before his work at SNAP, Shinwoo worked as a web developer on the [**TouchTheInvisible**](https://touchtheinvisible.com/) Research Project and as an Instructor teaching [**CompTIA A+ Certificate**](https://www.comptia.org/certifications/a) course to high school students in Pittsburgh’s Hill District. 
+Before his work at SNAP, Shinwoo worked as a web developer on the [**TouchTheInvisible**](https://touchtheinvisible.com/) Research Project and as an Instructor teaching [**CompTIA A+ Certificate**](https://www.comptia.org/certifications/a) course to high school students in Pittsburgh’s Hill District. He's also worked to ensure education equity through his work at Pittsburgh's Diversity Recruitment Education & Mentoring (DREAM) Team, Pitt's Community Engagement Center, and by creating and teaching a free SAT Prep course.
