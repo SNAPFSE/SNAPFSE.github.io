@@ -2,6 +2,7 @@
 layout: default
 title: Who We Are
 permalink: /about/
+description: Meet the people behind SNAP!
 ---
 
 <div
@@ -46,7 +47,7 @@ permalink: /about/
 </div>
 
 <div class="border border-dark container rounded bg-whitesmoke mb-3 p-4">
-  <h4 class="display-6">Advisory Committee</h4>
+  <p class="display-6">Advisory Committee</p>
   {% for person in site.people %} {% if person.category == 1 %}
   <div class="row">
     <div class="col-12 col-lg-3">
@@ -77,7 +78,7 @@ permalink: /about/
 </div>
 
 <div class="border border-dark container rounded bg-whitesmoke mb-3 p-4">
-  <h4 class="display-6">SNAP Committee</h4>
+  <p class="display-6">SNAP Committee</p>
   {% for person in site.people %} {% if person.category == 2 %}
   <div class="row">
     <div class="col-12 col-lg-3">
@@ -108,7 +109,7 @@ permalink: /about/
 </div>
 
 <div class="border border-dark container rounded bg-whitesmoke mb-3 p-4">
-  <h4 class="display-6">Undergraduate SNAP Committee</h4>
+  <p class="display-6">Undergraduate SNAP Committee</p>
   {% for person in site.people %} {% if person.category == 3 %}
   <div class="row">
     <div class="col-12 col-lg-3">

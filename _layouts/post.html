@@ -18,8 +18,10 @@
             <p class="">Return to Blog</h6>
           </a>
         </div>
-        <article>{{ content }}</article>
-
+        <article>
+          {{ content }}
+        </article>
+        {% include share-buttons.html %}
         <div class="d-flex justify-content-between mt-5">
           {% if page.previous.url %}
           <a

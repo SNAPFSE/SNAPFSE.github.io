@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Snap Research Abstract
+title: "Snap Research: Investigating the Social and Communication Skillsets within Autistic Individuals and the Improvements through Controlled Neurotypical and Neurodiverse Social Intervention"
 permalink: /research-abstract/
+description: What research is being done at SNAP
 ---
-# Investigating the Social and Communication Skillsets within Autistic Individuals and the Improvements through Controlled Neurotypical and Neurodiverse Social Intervention
 
 [**Zachary Miller**](mailto:zachamiller@pitt.edu){: .text-center}
 {: .text-center .mb-0 .h5}
