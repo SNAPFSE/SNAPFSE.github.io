@@ -3,7 +3,7 @@ name: Harvey Borovetz, PhD
 title: Committee Member
 email: borovetz@pitt.edu
 category: 1
-image: Harvey Borovetz.jpeg
+photo: Harvey Borovetz.jpeg
 website: https://mirm-pitt.net/staff/harvey-s-borovetz-phd/
 ---
 Dr. Harvey Borovetz is a Distinguished Professor and former Chair (2002-2013) in the Department of Bioengineering, Swanson School of Engineering at the University of Pittsburgh, the Robert L. Hardesty Professor in the Department of Surgery, University of Pittsburgh School of Medicine, a Professor of Chemical and Petroleum Engineering, a Professor – Clinical and Translational Science Institute and a University Honors College Faculty Fellow. Within the McGowan Institute for Regenerative Medicine, Dr. Borovetz holds the position of Deputy Director of Artificial Organs and Medical Devices.

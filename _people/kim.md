@@ -5,7 +5,7 @@ email: shinwoo@snapfse.com
 linkedin: https://www.linkedin.com/in/kimshinwoo/
 website: https://sites.pitt.edu/~shk148
 category: 3
-image: Shinwoo Kim.jpeg
+photo: Shinwoo Kim.jpeg
 ---
 Shinwoo Kim is the Chief Technical Officer at SNAP and is responsible for designing and maintaining the SNAP Website and SNAP App Project. Currently, he is a student at the [University of Pittsburgh](https://pitt.edu)'s [School of Computing & Information](https://sci.pitt.edu) and the [David C. Frederick Honors College](https://www.frederickhonors.pitt.edu/), where he is studying computer science and mathematics.
 

@@ -1,16 +1,18 @@
 ---
 layout: page
-title: "Snap Research: Investigating the Social and Communication Skillsets within Autistic Individuals and the Improvements through Controlled Neurotypical and Neurodiverse Social Intervention"
+title: Snap Research
 permalink: /research-abstract/
 description: What research is being done at SNAP
 ---
+## **Investigating the Social and Communication Skillsets within Autistic Individuals and the Improvements through Controlled Neurotypical and Neurodiverse Social Intervention"**
+{: .h1}
 
 [**Zachary Miller**](mailto:zachamiller@pitt.edu){: .text-center}
 {: .text-center .mb-0 .h5}
 July 1st, 2022
 {: .text-center .h6}
 
-## Abstract
+### Abstract
 Autism Spectrum Disorder (ASD) is a neurological disorder that was discovered in 1911 by Eugen Bleuler. Originally defined as the most extreme form of schizophrenia, Autism was redefined as a neurodevelopmental disorder in the late 1950s. Today, it is a social and communication disorder with ranging symptoms in poor motor function, speech and social impairment, impulsivity, chronic repetition, extreme sensitivity, anxiety, and depression. It was renamed Autism Spectrum Disorder in later years to facilitate diagnoses of a broader range. ASD can delay pediatric milestones throughout mental and physical growth. Children are typically affected in their social skills with delayed abilities in language, cognition, and learning. Unfortunately, ASD has no clearly defined cause, making it an idiopathic disorder. Even worse, ASD affects one in every forty-four children as of 2018 with the prevalence rate of the disorder nearly tripling in the past two decades. In addition to ASD being an idiopathic mental disorder, there are currently no cures and very few treatment options to alleviate symptoms. As of 2008, 2.3% of eight-year-olds worldwide were diagnosed with ASD. The average age of diagnosis is approximately four years old.
 
 Since there is no known cause for ASD, there is also no diagnostic reason for the treacherous incline in Autism cases. There are many hypotheses as to why, but no confirmed findings. For instance, one belief is that new equipment and diagnosis guidelines have increased ASD’s prevalence and that the increase in cases is more of an illusion. Others hypothesize that there is a legitimate increase in Autism cases because of higher parental ages affecting their incidence rate. At the age of forty, women's incidence rate of infant complications doubles from 0.5% to 1%. Finally, some believe that there is a greater prevalence of the hypothesized Autism-inflicting genes in parents, which is increasing the presence of ASD cases. Either way, all these beliefs are guesses rather than facts, meanwhile, there continues to be an increase in autistic individuals worldwide. With no known cause or cure, ASD will continue to flourish affecting millions of adolescents.

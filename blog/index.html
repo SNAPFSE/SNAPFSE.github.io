@@ -1,12 +1,16 @@
 ---
 layout: default
 title: Blog
+description: Keep up with the latest of what's going on at SNAP
 ---
 
 <!-- This loops through the paginated posts -->
 <div class="container-sm">
   {% for post in paginator.posts %}
-  <div class="news-list">
+  <div
+    class="rounded bg-whitesmoke p-4 col-sm text-center mx-auto border shadow"
+    style="max-width: 50em"
+  >
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
       {% if post.coverimage %}
       <img src="{{ post.coverimage }}" class="mx-auto img-fluid" />

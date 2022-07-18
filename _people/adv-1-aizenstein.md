@@ -3,7 +3,7 @@ name: Howard Aizenstein, MD, PhD
 title: Committee Member
 email: aizensteinhj@upmc.edu
 category: 1
-image: Howard Aizenstein.png
+photo: Howard Aizenstein.png
 website: https://www.psychiatry.pitt.edu/about-us/our-people/faculty/howard-j-aizenstein-md-phd
 ---
 Dr. Aizenstein is an expert on the cognitive and affective neuroscience of aging and geriatric brain disorders. He is trained as a geriatric psychiatrist and also a computer scientist. His research program is recognized for expertise in MRI analyses methods, as well as their use for clinical research in aging.
