@@ -45,6 +45,14 @@ body {
   margin-top: auto;
 }
 
+.footer-link {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
 blockquote {
   border-left: 5px solid orange;
   //.mx-5;

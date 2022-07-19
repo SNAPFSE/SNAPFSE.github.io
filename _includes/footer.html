@@ -11,12 +11,11 @@
         </div>
         <p class="h6 text-uppercase fw-bold mb-1">{{ site.full-title }}</p>
         <p class="mb-0">{{ site.description }}</p>
-        <p>© 2020 SNAP. All Rights Reserved.</p>
       </div>
       <div
-        class="col-sm-4 mx-auto mb-md-0 d-flex text-center text-sm-end justify-content-around"
+        class="col-sm-4 mx-auto mb-md-0 d-flex text-sm-end justify-content-md-around"
       >
-        <div class="row row-cols-2 row-cols-sm-1">
+        <div class="row my-md-0 my-3">
           <div>
             <p class="m-0">Pittsburgh, PA 15260, US</p>
             <p class="m-0">
@@ -33,13 +32,20 @@
               </a>
             </p>
           </div>
-          <div>
-            <a class="text-light text-sm-end" href="{{site.baseurl}}/privacy/">
-              Privacy Notice
-            </a>
-          </div>
         </div>
       </div>
+    </div>
+    <div
+      class="d-md-flex flex-column justify-content-md-center flex-md-row gap-3 mb-2 text-center"
+    >
+      <a class="footer-link" href="{{site.baseurl}}/privacy/">
+        Privacy Notice
+      </a>
+      <a class="footer-link" href="{{site.baseurl}}/sitemap.xml">Sitemap</a>
+      <a class="footer-link" href="{{site.baseurl}}/accessibility/">
+        Accessibility
+      </a>
+      <div class="footer-link">© 2020 SNAP. All Rights Reserved.</div>
     </div>
   </div>
 </footer>

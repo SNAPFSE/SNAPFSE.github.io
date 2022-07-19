@@ -5,6 +5,8 @@ permalink: /privacy/
 description: Privacy Policy for SNAPFSE.COM
 ---
 
+`LAST UPDATED: July 19, 2022`
+
 Your privacy on the Internet is of utmost importance to **SNAP**. This privacy statement describes SNAP’s policy concerning the gathering and sharing of visitors’ information through the SNAP web site. It applies to all SNAP sites” – that is, all sites within the "`SNAPFSE.COM`" domain name.
 
 By accessing this Site, certain information about the User, such as Internet protocol (IP) addresses, navigation through the Site, the software used and the time spent, along with other similar information, will be stored on SNAP and web analytics servers. This information will not specifically identify the User. The information will be used internally only for website traffic analysis. If the User provides unique identifying information, such as name, address and other information on forms stored on this Site, such information will be used only for statistical purposes and will not be published for general access. SNAP, however, assumes no responsibility for the security of this information.
@@ -25,10 +27,10 @@ All our employees who have access to, and are associated with the processing of 
 This website may contain links to sites external to the `SNAPFSE.com` domain. We are not responsible for the privacy practices or the content of such sites.
 
 ## Notification of changes
-Changes to this privacy policy will be posted [here]({{site.url}}/privacy/)
+Changes to this privacy policy will be posted [here](/privacy/)
 
 ## Contact
-For questions or queries regarding this privacy policy, please contact us [here]({{ site.url }}/contact).
+For questions or queries regarding this privacy policy, please contact us [here](/contact/).
 
 ---
 

@@ -18,4 +18,4 @@ If you are having trouble accessing the form, click
 [here](https://pitt.co1.qualtrics.com/jfe/form/SV_2f5z6imgyfX1pD8) to complete
 the form on Qualtrics.
 
-<a class="btn btn-primary" href="{{ site.url }}">Return to Home</a>
+[Return to Home]({{ site.url }}){: .btn .btn-primary}
