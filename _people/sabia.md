@@ -4,6 +4,7 @@ title: SNAP Club Business Manager and Public Relations
 email: ams716@pitt.edu
 photo: Ashley Sabia.jpg
 category: 3
+linkedin: https://www.linkedin.com/in/ashley-sabia-137118225/
 ---
 Ashley Sabia is the Business Manager and Public Relations Officer at SNAP. She is responsible for member engagement and maintaining correspondence, as well as managing SNAP’s social media accounts. Ashley is a student at the University of Pittsburgh’s David C. Frederick Honors College, where she is a pre-medical student majoring in Biology with minors in Chemistry and Spanish.
 
