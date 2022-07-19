@@ -29,9 +29,7 @@ layout: home
   }
 </style>
 <header>{% include navbar.html %}</header>
-<section
-  class="hero-image d-flex flex-column justify-content-center align-items-center"
->
+<section class="hero-image d-flex flex-column justify-content-center">
   <div class="container-sm">
     <div class="text-center text-light mx-auto" style="max-width: 35em">
       <h1 class="display-6">Welcome to SNAP!</h1>
@@ -45,7 +43,8 @@ layout: home
       </p>
       <a href="#what-we-do">
         <i
-          class="arrow-circle-down-icon align-middle display-3 enlargeable"
+          class="arrow-circle-down-icon enlargeable"
+          style="font-size: 3em"
         ></i>
       </a>
     </div>
@@ -84,14 +83,14 @@ layout: home
         <div
           class="d-grid gap-2 d-md-flex justify-content-md-start text-center"
         >
-          <a class="disabled">
+          <a href="https://www.apple.com/app-store/">
             <img
               src="./assets/appstore-badge.png"
               alt="Get it on the App Store"
               height="50em"
             />
           </a>
-          <a class="disabled">
+          <a href="https://play.google.com/">
             <img
               src="./assets/playstore-badge.png"
               alt="Get it on the Play Store"
@@ -145,7 +144,7 @@ layout: home
             class="btn btn-outline-secondary btn-lg px-4"
             href="{{'/projects/#snap-research'|prepend: site.baseurl }}"
           >
-            Learn More
+            Learn More About Snap Research
           </a>
         </div>
       </div>
@@ -184,14 +183,17 @@ layout: home
           adjusting to a more neurotypical-based setting.
         </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <a class="btn btn-primary text-light btn-lg px-4 me-md-2 disabled">
+          <a
+            class="btn btn-primary text-light btn-lg px-4 me-md-2 disabled"
+            href="{{site.url}}"
+          >
             Get the Newsletter
           </a>
           <a
             class="btn btn-outline-secondary btn-lg px-4"
             href="{{'/projects/#sri'|prepend: site.baseurl }}"
           >
-            Learn More
+            Learn More About SRI
           </a>
         </div>
       </div>
@@ -239,7 +241,7 @@ layout: home
             class="btn btn-outline-secondary btn-lg px-4"
             href="{{'/projects/#the-snap-club'|prepend: site.baseurl }}"
           >
-            Learn More
+            Learn More About the SNAP Club
           </a>
         </div>
       </div>

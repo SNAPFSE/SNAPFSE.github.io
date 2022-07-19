@@ -15,10 +15,13 @@ description: Meet the people behind SNAP!
     <p class="text-end mb-0">- Hellen Keller -</p>
   </div>
 </div>
-
 <div class="border border-dark container rounded bg-whitesmoke mb-3 p-4">
-  {% for person in site.people %} {% if person.category == 0 %}
+  {% assign founders = site.people | where:"category", "0" %}{% for person in
+  founders %}
   <div class="row">
+    {% unless forloop.first%}
+    <hr class="mb-3" />
+    {% endunless %}
     <div class="col-12 col-lg-3">
       <img
         src="./../assets/profiles/{{person.photo}}"
@@ -33,23 +36,26 @@ description: Meet the people behind SNAP!
         {% if person.email%}
         <a href="mailto:{{person.email}}">{{person.email}}</a>
         {% endif %}{% if person.linkedin%} |
-        <a href="{{person.linkedin}}"
-          ><i class="align-middle linkedin-square-icon"></i
-        ></a>
+        <a href="{{person.linkedin}}">
+          <i class="align-middle linkedin-square-icon"></i>
+        </a>
         {% endif %} {% if person.website%} |
-        <a href="{{person.website}}"><i class="align-middle globe-icon"></i></a
-        >{% endif %}
+        <a href="{{person.website}}">
+          <i class="align-middle globe-icon"></i>
+        </a>
+        {% endif %}
       </p>
       <p>{{person.content}}</p>
     </div>
   </div>
-  {% endif %} {% endfor %}
+  {% endfor %}
 </div>
-
 <div class="border border-dark container rounded bg-whitesmoke mb-3 p-4">
   <p class="display-6">Advisory Committee</p>
-  {% for person in site.people %} {% if person.category == 1 %}
+  {% assign advisory = site.people | where:"category", "1" %} {% for person in
+  advisory %}
   <div class="row">
+    <hr class="mb-3" />
     <div class="col-12 col-lg-3">
       <img
         src="./../assets/profiles/{{person.photo}}"
@@ -64,23 +70,26 @@ description: Meet the people behind SNAP!
         {% if person.email%}
         <a href="mailto:{{person.email}}">{{person.email}}</a>
         {% endif %}{% if person.linkedin%} |
-        <a href="{{person.linkedin}}"
-          ><i class="align-middle linkedin-square-icon"></i
-        ></a>
+        <a href="{{person.linkedin}}">
+          <i class="align-middle linkedin-square-icon"></i>
+        </a>
         {% endif %} {% if person.website%} |
-        <a href="{{person.website}}"><i class="align-middle globe-icon"></i></a
-        >{% endif %}
+        <a href="{{person.website}}">
+          <i class="align-middle globe-icon"></i>
+        </a>
+        {% endif %}
       </p>
       <p>{{person.content}}</p>
     </div>
   </div>
-  {% endif %} {% endfor %}
+  {% endfor %}
 </div>
-
 <div class="border border-dark container rounded bg-whitesmoke mb-3 p-4">
   <p class="display-6">SNAP Committee</p>
-  {% for person in site.people %} {% if person.category == 2 %}
+  {% assign cmte = site.people | where:"category", "2" %} {% for person in cmte
+  %}
   <div class="row">
+    <hr class="mb-3" />
     <div class="col-12 col-lg-3">
       <img
         src="./../assets/profiles/{{person.photo}}"
@@ -95,23 +104,26 @@ description: Meet the people behind SNAP!
         {% if person.email%}
         <a href="mailto:{{person.email}}">{{person.email}}</a>
         {% endif %}{% if person.linkedin%} |
-        <a href="{{person.linkedin}}"
-          ><i class="align-middle linkedin-square-icon"></i
-        ></a>
+        <a href="{{person.linkedin}}">
+          <i class="align-middle linkedin-square-icon"></i>
+        </a>
         {% endif %} {% if person.website%} |
-        <a href="{{person.website}}"><i class="align-middle globe-icon"></i></a
-        >{% endif %}
+        <a href="{{person.website}}">
+          <i class="align-middle globe-icon"></i>
+        </a>
+        {% endif %}
       </p>
       <p>{{person.content}}</p>
     </div>
   </div>
-  {% endif %} {% endfor %}
+  {% endfor %}
 </div>
-
 <div class="border border-dark container rounded bg-whitesmoke mb-3 p-4">
   <p class="display-6">Undergraduate SNAP Committee</p>
-  {% for person in site.people %} {% if person.category == 3 %}
+  {% assign ugrad = site.people | where:"category", "3" %} {% for person in
+  ugrad %}
   <div class="row">
+    <hr class="mb-3" />
     <div class="col-12 col-lg-3">
       <img
         src="./../assets/profiles/{{person.photo}}"
@@ -126,15 +138,17 @@ description: Meet the people behind SNAP!
         {% if person.email%}
         <a href="mailto:{{person.email}}">{{person.email}}</a>
         {% endif %}{% if person.linkedin%} |
-        <a href="{{person.linkedin}}"
-          ><i class="align-middle linkedin-square-icon"></i
-        ></a>
+        <a href="{{person.linkedin}}">
+          <i class="align-middle linkedin-square-icon"></i>
+        </a>
         {% endif %} {% if person.website%} |
-        <a href="{{person.website}}"><i class="align-middle globe-icon"></i></a
-        >{% endif %}
+        <a href="{{person.website}}">
+          <i class="align-middle globe-icon"></i>
+        </a>
+        {% endif %}
       </p>
       <p>{{person.content}}</p>
     </div>
   </div>
-  {% endif %} {% endfor %}
+  {% endfor %}
 </div>
