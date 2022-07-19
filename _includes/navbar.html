@@ -7,27 +7,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav ms-auto">
+                {% for item in site.data.nav.links %}
                 <li class="nav-item">
-                    <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' |prepend: site.baseurl }}">Home</a>
+                    <a class="nav-link {% if page.url == '{{item.url}}' %}active{% endif %}" href="{{site.url}}{{item.url}}">{{item.title}}</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link {% if page.url == '/blog/' %}active{% endif %}" href="{{ '/blog/' |prepend: site.baseurl }}">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {% if page.url == '/story/' %}active{% endif %}" href="{{ '/story/' |prepend: site.baseurl }}">Our Story</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {% if page.url == '/projects/' %}active{% endif %}" href="{{'/projects/'|prepend: site.baseurl }}">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {% if page.url == '/about/' %}active{% endif %}" href="{{ '/about/' |prepend: site.baseurl }}">Who We Are</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {% if page.url == '/contribute/' %}active{% endif %}" href="{{ '/contribute/' |prepend: site.baseurl }}">Contribute</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {% if page.url == '/contact/' %}active{% endif %}" href="{{ '/contact/' |prepend: site.baseurl }}">Contact Us</a>  
-                </li>
+                {% endfor %}
+                
             </ul>
         </div>
     </div>
