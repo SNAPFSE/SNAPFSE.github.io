@@ -8,7 +8,7 @@ description: What research is being done at SNAP
 {: .computer-modern .display-6 .fw-bold}
 
 <style>
-    p,h1,h2,h3,h4,h5{font-family: "Computer Modern Serif", serif; }
+    article p,h1,h2,h3,h4,h5{font-family: "Computer Modern Serif", serif; }
     h1{font-weight: bold; font-size: 2em; text-decoration: underline}
 </style>
 
