@@ -22,6 +22,7 @@
           {{ content }}
         </article>
         {% include share-buttons.html %}
+        {% if page.previous.url or page.next.url %}
         <div class="d-flex justify-content-between mt-5">
           {% if page.previous.url %}
           <a
@@ -42,6 +43,7 @@
           <div></div>
           {% endif %}
         </div>
+        {% endif %}
       </div>
     </div>
     {% include footer.html %} {% include scripts.html %}{% include
