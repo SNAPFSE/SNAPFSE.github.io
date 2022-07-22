@@ -3,5 +3,10 @@ name: Nicholas Vasas
 title: SNAP Club Vice President
 email: ncv7@pitt.edu
 category: 3
-photo: pfp-placeholder.jpeg
+photo: Nick Vasas.jpg
 ---
+Nicholas is the Vice President of SNAP. He was diagnosed with Benign Rolandic Epilepsy as a child and ever since then has been committed to helping the neurodiverse community. Nicholas knows what it is like to feel different from his peers, emphasizing the importance of social communities for neurodiverse people.
+
+Nicholas is an undergraduate student at the University of Pittsburgh in the Swanson School of Engineering and University Honors College. He is majoring in Bioengineering on the pre-medical track with minors in Chemistry, Neuroscience, Mathematics, and Conceptual Foundations of Medicine.
+
+Presently, Nicholas is a Protocol Administrator on the Soft Tissue Biomechanics Lab’s RLN project. He is also the Vice President of Design Hub, a bioengineering project development club at the University of Pittsburgh.
