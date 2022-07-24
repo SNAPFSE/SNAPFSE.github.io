@@ -36,3 +36,6 @@ The SNAP club was created to help all the other programs. Their mission is to cr
 
 [Join Now](/join){: .btn .btn-primary}
 {: .text-center}
+
+[Download Constitution](/assets/SNAP%20Club%20Consitution.docx){: .btn .btn-primary}
+{: .text-center}

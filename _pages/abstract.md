@@ -4,7 +4,7 @@ title: Snap Research
 permalink: /research-abstract/
 description: What research is being done at SNAP
 ---
-## **Investigating the Social and Communication Skillsets within Autistic Individuals and the Improvements through Controlled Neurotypical and Neurodiverse Social Intervention"**
+## New, Controlled Social Intervention for Autism Spectrum Disorder Children Utilizing Proprietary, Artificial Intelligent Software for Pragmatic Growth
 {: .computer-modern .display-6 .fw-bold}
 
 <style>
