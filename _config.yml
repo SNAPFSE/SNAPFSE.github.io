@@ -26,6 +26,7 @@ plugins:
 # Include Pages
 include:
   - _pages
+  - CNAME
 
 collections:
   - people
