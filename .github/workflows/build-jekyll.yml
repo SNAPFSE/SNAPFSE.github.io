@@ -18,9 +18,6 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-
-      - run: sudo apt-get install -y libvips
-
       # Use GitHub Deploy Action to build and deploy to Github
       - uses: jeffreytse/jekyll-deploy-action@v0.4.0
         with:
@@ -34,4 +31,4 @@ jobs:
           bundler_ver: ">=0" # Default is latest bundler version
           cname: "snapfse.com" # Default is to not use a cname
           actor: "" # Default is the GITHUB_ACTOR
-          pre_build_commands: "" # Installing additional dependencies (Arch Linux)
+          pre_build_commands: "pacman -S --noconform libvips" # Installing additional dependencies (Arch Linux)
