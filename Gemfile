@@ -19,8 +19,8 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-paginate'
   gem 'jekyll-spaceship'
+  gem 'jekyll_picture_tag', '~> 2.0'
   gem 'rouge'
-  
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
