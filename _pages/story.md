@@ -32,5 +32,6 @@ I have been surrounded by and supported by the special needs community. From my 
 
 ![SNAP Logo](/assets/square-logo.jpg){: .rounded .d-block .img-fluid}
 {: .float-start .m-2 style="width:13%;"}
+{% picture square-logo.jpg class="rounded d-block img-fluid float-start m-2" style="width:13%;"%}
 
 In nature, birds and alligators live in a harmonious relationship called mutualism—the biological, symbiotic relationship where two animals benefit one another. The bird will rest inside the alligator’s mouth and pick out any food remains in the alligator’s teeth. This feeds the bird and keeps the alligator’s mouth nice and clean. SNAP adapts this ideology to neurodiverse and neurotypical individuals. There is a uniqueness to our relationships, but something so unique and significant in that we can help one another and grow together. SNAP’s logo shows the love and support both communities should share and will continue to develop and advocate.
