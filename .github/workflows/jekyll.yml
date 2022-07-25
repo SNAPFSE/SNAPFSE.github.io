@@ -26,5 +26,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           target_branch: "gh-pages"
-          pre_build_commands: |
-            apk --update add vips vips-tools
+          #pre_build_commands: |
+          #  apk --update add vips vips-tools
