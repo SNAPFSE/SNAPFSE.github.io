@@ -1,50 +1,24 @@
-name: Publish to GitHub Pages
+name: Publish Jekyll
 
-# Run when new code is pushed to one of the main branches. Also provide a button for manual deploys.
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-
-# Cancel any runs in progress -- just complete the latest run
-concurrency:
-  group: github_pages
-  cancel-in-progress: true
+on: push
 
 jobs:
   jekyll:
-    # Grab a Linux runner from the pool
     runs-on: ubuntu-latest
-    # Publishing needs to write to the gh-pages branch
-    permissions:
-      contents: write
     steps:
-      # Jekyll Picture Tag requires libvips libraries for resizing images, which must be installed
-      - name: Install JPT's dependencies
-        run: sudo apt-get install libvips-tools
+      - uses: actions/checkout@v2
 
-      # Put repository source onto the runner so we can build it
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      # Install the proper version of Ruby and run bundle install
-      - name: 💎 setup ruby
-        uses: ruby/setup-ruby@v1
+      # Use GitHub Actions' cache to shorten build times and decrease load on servers
+      - uses: actions/cache@v2
         with:
-          ruby-version: 3.1
-          bundler-cache: true
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
 
-      # Build the site
-      - name: Jekyll build
-        run: bundle exec jekyll build
-        env:
-          JEKYLL_ENV: production
-
-      # Publish built site to Pages
-      - name: 🚀 deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+      # Specify the target branch (optional)
+      - uses: helaili/jekyll-action@v2
         with:
-          branch: gh-pages
-          folder: _site
-          force: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: "gh-pages"
+          pre_build_commands: "apk --update add vips-tools"
