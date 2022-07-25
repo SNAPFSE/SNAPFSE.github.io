@@ -46,13 +46,6 @@ GEM
       rainbow (~> 3.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll_picture_tag (2.0.3)
-      addressable (~> 2.6)
-      jekyll (~> 4.0)
-      mime-types (~> 3.0)
-      objective_elements (~> 1.1)
-      rainbow (~> 3.0)
-      ruby-vips (~> 2.0.17)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -62,12 +55,8 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mime-types (3.4.1)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2022.0105)
     nokogiri (1.13.7-arm64-darwin)
       racc (~> 1.4)
-    objective_elements (1.1.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
@@ -78,8 +67,6 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.5)
     rouge (3.29.0)
-    ruby-vips (2.0.17)
-      ffi (~> 1.9)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -99,7 +86,6 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-spaceship
-  jekyll_picture_tag (~> 2.0)
   rouge
   tzinfo (~> 1.2)
   tzinfo-data
