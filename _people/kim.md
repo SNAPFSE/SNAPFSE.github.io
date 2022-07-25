@@ -1,6 +1,6 @@
 ---
 name: Shinwoo Kim
-title: Chief Techincal Officer
+title: Chief Technical Officer
 email: shinwoo@snapfse.com
 linkedin: https://www.linkedin.com/in/kimshinwoo/
 website: https://sites.pitt.edu/~shk148
