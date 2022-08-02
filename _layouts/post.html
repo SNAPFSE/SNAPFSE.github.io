@@ -3,26 +3,18 @@
   {% include head.html %} {% include styles.html %}
   <body>
     <header>{% include navbar.html %}</header>
-    <div class="container">
-      <div class="text-center">
-        <h1 class="text-light">{{ page.title }}</h1>
-        {% if page.date %}
-        <p class="text-light lead">
-          <time> {{ page.date | date: "%B %d, %Y" }} </time>
-        </p>
-        {% endif %}
-      </div>
+    <div class="container-sm mt-3" style="max-width: 960px">
       <div class="rounded bg-whitesmoke p-4 m-1">
         <div class="align-self-end">
-          <a class="text-decoration-none" href="{{ '/blog/' |prepend: site.baseurl }}">
-            <p class="">Return to Blog</h6>
-          </a>
+          <p class="my-0">
+            {{page.tag|append: " | "}}{{ page.date | date: "%B %d, %Y" }}
+          </p>
         </div>
-        <article>
-          {{ content }}
-        </article>
-        {% include share-buttons.html %}
-        {% if page.previous.url or page.next.url %}
+        <h1 class="my-0">{{ page.title }}</h1>
+        <p class="fs-3">{{page.description}}</p>
+        <article>{{ content }}</article>
+        {% include share-buttons.html %} {% if page.previous.url or
+        page.next.url %}
         <div class="d-flex justify-content-between mt-5">
           {% if page.previous.url %}
           <a

@@ -8,26 +8,19 @@ description: Keep up with the latest of what's going on at SNAP
 <div class="container-sm">
   {% for post in paginator.posts %}
   <div
-    class="rounded bg-whitesmoke p-4 col-sm text-center mx-auto border shadow"
+    class="rounded bg-whitesmoke p-4 col-sm mx-auto shadow post-container"
     style="max-width: 50em"
+    onclick="location.href='{{ site.url }}{{ post.url }}';"
   >
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-      {% if post.coverimage %}
-      <img src="{{ post.coverimage }}" class="mx-auto img-fluid" />
-      {% endif %}
-    </a>
-    <h2 class="post-title" itemprop="name">
-      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    {% if post.date %}
-    <p>
-      <mark>
-        <time> {{ post.date | date: "%B %d, %Y" }} </time>
-      </mark>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"> </a>
+    <p class="post-tag">
+      <mark> {{post.tag}} </mark>
     </p>
-    {% endif %}
-    <p class="text-start">{{ post.excerpt | strip_html }}</p>
-    <p><a href="{{ site.url }}{{ post.url }}">Read More</a></p>
+    <a class="post-link" href="{{ site.url }}{{ post.url }}">
+      <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+      <p class="post-subtitle lead">{{post.description}}</p>
+    </a>
+    <p class="text-black-50">{{ post.date | date: "%m-%d-%Y" }}</p>
   </div>
   {% endfor %}
 </div>
