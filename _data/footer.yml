@@ -1,15 +1,13 @@
 links:
-  - title: Home
-    url: /
+  - title: About Us
+    url: /story/
   - title: Blog
     url: /blog/
-  - title: Our Story
-    url: /story/
-  - title: Projects
-    url: /projects/
-  - title: Who We Are
-    url: /about/
-  - title: Contribute
-    url: /contribute/
-  - title: Contact Us
+  - title: Privacy Notice
+    url: /privacy/
+  - title: Sitemap
+    url: /sitemap.xml
+  - title: Accessibility
+    url: /accessibility/
+  - title: Contact
     url: /contact/

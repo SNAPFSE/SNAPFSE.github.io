@@ -1,60 +1,42 @@
 <footer class="text-lg-start text-light footer">
-  <div class="text-center col-4 mx-auto">Sign Up for our Newsletter</div>
-  <div class="container text-md-start mt-1">
-    <!--
-    <div class="row mt-3">
-      <div class="col-sm-8 mx-auto">
-        <div class="float-start mx-2" style="max-width: 11%">
-          <img
-            class="rounded d-block img-fluid border-dark"
-            alt="SNAP Logo"
-            src="{{ site.baseurl }}/assets/logo.webp"
-          />
-        </div>
-        <p class="h6 text-uppercase fw-bold mb-1">{{ site.full-title }}</p>
-        <p class="mb-0 d-none d-md-inline">{{ site.description }}</p>
-      </div>
-      <div
-        class="col-sm-4 mx-auto mb-md-0 d-flex text-sm-end justify-content-md-around"
-      >
-        <div class="row my-md-0 my-3">
-          <div>
-            <p class="m-0">Pittsburgh, PA 15213, US</p>
-            <p class="m-0">
-              <a href="mailto:{{ site.email }}" class="text-light">
-                {{ site.email }}
-              </a>
-            </p>
-            <p class="m-0">
-              <a
-                href="tel:{{ site.phone }}"
-                class="text-light text-decoration-none"
-              >
-                {{ site.phone }}
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
+  <div class="container mt-1" style="max-width: 960px">
+    <div class="text-center">
+      <span>
+        <img
+          src="{{site.baseurl}}/assets/logo.webp"
+          alt="SNAP Logo"
+          width="auto"
+          height="30"
+          width="30"
+          class="d-inline-block align-text-top"
+        />
+        <span class="align-bottom" style="font-size: 1.2em"
+          >{{site.full-title}}</span
+        >
+      </span>
+      <div class="text-center">{{site.tagline}}</div>
     </div>
-    -->
+  </div>
+  <div class="container text-md-start mt-1">
     <div
-      class="d-md-flex flex-column justify-content-md-center flex-md-row gap-3 mb-2 text-center"
+      class="d-md-flex flex-column justify-content-center flex-md-row gap-3 text-center"
+    >
+      {% for item in site.data.footer.links %}
+      <a class="footer-link" href="{{site.baseurl}}{{item.url}}">
+        {{item.title}}
+      </a>
+      {% endfor %}
+    </div>
+    <div
+      class="d-md-flex flex-column justify-content-center flex-md-row gap-3 mb-2 text-center"
     >
       <span class="footer-link">
         ©
         <script>
           document.write(new Date().getFullYear());
         </script>
-        {{site.title}}
+        {{site.full-title}}. All Rights Reserved.
       </span>
-      <a class="footer-link" href="{{site.baseurl}}/story/"> About Us </a>
-      <a class="footer-link" href="{{site.baseurl}}/privacy/">Privacy Notice</a>
-      <a class="footer-link" href="{{site.baseurl}}/sitemap.xml">Sitemap</a>
-      <a class="footer-link" href="{{site.baseurl}}/accessibility/"
-        >Accessibility</a
-      >
-      <a class="footer-link" href="{{site.baseurl}}/contact/"> Contact </a>
     </div>
   </div>
 </footer>
