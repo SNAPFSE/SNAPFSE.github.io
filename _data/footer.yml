@@ -1,0 +1,15 @@
+links:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/
+  - title: Our Story
+    url: /story/
+  - title: Projects
+    url: /projects/
+  - title: Who We Are
+    url: /about/
+  - title: Contribute
+    url: /contribute/
+  - title: Contact Us
+    url: /contact/
