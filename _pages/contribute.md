@@ -9,7 +9,7 @@ SNAP is not just a platform, but also a mentality. We are dedicated to advocatin
 
 Any Pitt student who joins [SNAP Club](/projects/#the-snap-club)’s team will promote communication between the neurodiverse and neurotypical communities and give more opportunities for new interactions.
 
-Members of SNAP will volunteer with UPMC hospitals near Pitt’s campus and assist patients with special needs by socializing and spending time with them.
+Members of SNAP will [volunteer with UPMC](/2022/08/08/upmc-partnership.html) hospitals near Pitt’s campus and assist patients with special needs by socializing and spending time with them.
 
 They will also create platforms and events for the neurodiverse and neurotypical communities to interact and communicate.
 
