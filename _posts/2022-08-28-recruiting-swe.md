@@ -7,7 +7,7 @@ tag: News
 ---
 
 [Apply](/recruiting/apply/){: .btn .btn-primary}
-{: .text-center my-0}
+{: .text-center .my-0}
 
 ## The Big Picture
 
@@ -18,7 +18,7 @@ Can you bring your creative and visionary skills to help make change in the worl
 [Special Needs Assistance Program for Social Engagement](http://snapfse.com) (**SNAPFSE**) was created to increase the engagement, awareness, and communication between neurodiverse and neurotypical people, bringing both groups together to create a stronger bond and better understanding of each other. SNAP expands into four individual projects, each with its unique mission to spread love and support for neurodiversity.
 
 [Read More](https://snapfse.com/story/){: .btn .btn-primary}
-{: .text-center}
+{: .text-center .my-0}
 
 ## Responsibilities Include
 
