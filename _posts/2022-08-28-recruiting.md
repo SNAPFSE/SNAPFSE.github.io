@@ -11,7 +11,7 @@ tag: News
 
 ## The Big Picture
 
-Can you bring your creative and visionary skills to help make change in the world? You will have the autonomy, access and support to do meaningful work that has huge impact on the neurodiverse and neurotypical population. Contagious enthusiasm for SNAPFSE’s mission and the passion to learn is essential in this role.
+Can you bring your creative and visionary skills to help make change in the world? You will have the autonomy, access, and support to do meaningful work that has huge impact on the neurodiverse and neurotypical population. Contagious enthusiasm for SNAPFSE’s mission and the passion to learn is essential in this role.
 
 ## About Us
 
