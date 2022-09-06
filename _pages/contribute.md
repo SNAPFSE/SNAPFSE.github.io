@@ -5,7 +5,7 @@ permalink: /contribute/
 description: Learn how you can help the Neurodiverse community!
 ---
 
-We're currently looking for a Mobile Software (App) Developer to join our team to worko the SNAP App. Click [here](/recruiting/) to learn more about the position. If you have questions please contact [`shinwookim@pitt.edu`](mailto:shinwookim@pitt.edu).
+We're currently looking for a Mobile Software (App) Developer to join our team to work on the SNAP App. Click [here](/recruiting/) to learn more about the position. If you have questions please contact [`shinwookim@pitt.edu`](mailto:shinwookim@pitt.edu).
 {: .alert .alert-success role="alert"}
 
 SNAP is not just a platform, but also a mentality. We are dedicated to advocating for the neurodiverse community, specifically, aiding them in being integrated into the neurotypical-based world! To help, please consider joining SNAP club, volunteering with special needs organizations, and supporting special needs assistance groups.
