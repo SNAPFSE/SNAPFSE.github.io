@@ -26,7 +26,7 @@ After the development of the SNAP App, we realized that there was limited resear
 ## SRI
 The SNAP Research Initiative (SRI) was created to be a link between the SNAP app and research. The SRI will allow for data collection on the app to help with the SNAP research. Surveys will be taken before and after social interactions on the app from the neurodiverse individuals to ascertain if there was a change in their social impairment and compliance. SRI can help supplement SNAP research with finding the best way to socially intervene not just for ASD, but for many more neurological disorders. To learn more, sign up for the SNAP Newsletter!
 
-[Sign Up for the SNAP Newsletter](#sri){: .btn .btn-primary .disabled}
+[Sign Up for the SNAP Newsletter](https://list.pitt.edu/mailman/listinfo/snapclub){: .btn .btn-primary}
 {: .text-center}
 
 ---
