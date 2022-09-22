@@ -22,3 +22,4 @@ SNAP Advisory Team
 **Nicholas Vasas** - _Vice President_  
 **Ashley Sabia** - _Business Manager/PR_  
 **Shinwoo Kim** - _Chief Technical Officer_
+
