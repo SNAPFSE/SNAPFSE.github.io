@@ -1,29 +1,29 @@
 ---
 layout: post
-title: "An Evening with Kate Marhelko"
-description: "Kate Marhelko joins SNAP@Pitt to talk about ADHD"
+title: "An Evening with Maria Reading"
+description: "Maria Reading joins SNAP@Pitt to talk about ADHD"
 tag: News
 ---
 
 **Date**: 09/28/2022  
 **Time**: 5:00 PM - 6:00 PM  
-**Location**: Zoom (Will be sent via E-mail)
+**Location**: Zoom (RSVP for Link)
 
-Join SNAP for “*An Evening with Kate Marhelko*" on Wednesday, September 28th at 5:00 pm via Zoom! The event will last one hour and include a moderated Q&A. Tickets are not required for the event, but attendees must complete the RSVP form.
+Join SNAP for “*An Evening with Maria Reading*" on Wednesday, September 28th at 5:00 pm via Zoom! The event will last one hour and include a moderated Q&A. Tickets are not required for the event, but attendees must complete the RSVP form.
 
 
 Participants with disabilities are encouraged to contact the SNAP Officers by E-mail at `snapfse@gmail.com` for proper accommodations.
 
-[RSVP Here](/){: .btn .btn-primary}
+[RSVP Here](https://docs.google.com/forms/d/e/1FAIpQLScRZ-tPZapvOPr-qcEKG1omviF7-qxVlSpvZo-aThHpeJKrPQ/viewform){: .btn .btn-primary}
 {: .text-center}
-## About Kate Marhelko
+## About Maria Reading
 
-| ![Kate Marhelko](https://live.staticflickr.com/4385/36479340495_25d311ef06_c.jpg){: .w-100 .img-thumbnail .d-block .img-fluid} |
+| ![Maria Reading](/assets/maria-reading.png){: .w-50  .img-thumbnail .d-block .img-fluid} |
 | :-----------------------------------------------------------------------------------------------------------: |
-|                                              *Kate Marhelko*                                  |
+|                                              *Maria Reading*                                  |
 {: .w-25 .float-end .me-2 .mb-1}
 
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend fringilla urna, at dapibus erat laoreet quis. Vivamus nec condimentum ligula. Suspendisse vitae ultrices enim. Nulla facilisi. Donec pellentesque sem vitae fringilla molestie. Duis sed vulputate nunc. Donec ipsum nunc, fermentum non odio ac, scelerisque congue leo. Donec lobortis, orci quis convallis laoreet, diam odio pulvinar nisl, id suscipit mi lectus ac dui. Duis nec dolor luctus erat faucibus tincidunt. Phasellus a sem semper, tincidunt nisl ac, commodo sem. Suspendisse id mauris eu risus tempor sagittis in et dui.**
+Maria Reading, M.S. CCC-SLP is a Speech-Language Pathologist currently employed in a school based setting. She received a Bachelor of Science degree in Communication Sciences and Disorders from The Pennsylvania State University in 2014, and a Master of Science Degree in Speech-Language Pathology from East Stroudsburg University of Pennsylvania in 2016.  She has completed clinical work in early intervention, private clinic services, inpatient rehabilitation, and acute hospital care in addition to her school based experience. She strives to help her students achieve functional communication, allowing them complete and full access to their academic curriculum.
 {: .mb-5}
 
 <br />
