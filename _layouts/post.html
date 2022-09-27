@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %} {% include styles.html %}
-  <body>
-    <header>{% include navbar.html %}</header>
-    <div class="container-sm mt-3" style="max-width: 960px">
-      <div class="rounded bg-whitesmoke p-4 m-1">
-        <div class="align-self-end">
-          <p class="my-0">
-            {{page.tag|append: " | "}}{{ page.date | date: "%B %d, %Y" }}
-          </p>
-        </div>
-        <h1 class="my-0">{{ page.title }}</h1>
-        <p class="fs-3">{{page.description}}</p>
-        <article>{{ content }}</article>
-        {% include share-buttons.html %} {% if page.previous.url or
-        page.next.url %}
-        <div class="d-flex justify-content-between mt-1">
-          {% if page.previous.url %}
-          <a
-            class="text-decoration-none text-start"
-            href="{{page.previous.url}}"
-          >
-            <span>&laquo; Previous</span>
-            <h4 class="text-decoration-underline">{{page.previous.title}}</h4>
-          </a>
-          {% else %}
-          <div></div>
-          {% endif %} {% if page.next.url %}
-          <a class="text-decoration-none text-end" href="{{page.next.url}}">
-            <span>Next &raquo;</span>
-            <h4 class="text-decoration-underline">{{page.next.title}}</h4>
-          </a>
-          {% else %}
-          <div></div>
-          {% endif %}
-        </div>
+{% include head.html %} {% include styles.html %}
+
+<body>
+  <header>{% include navbar.html %}</header>
+  <div class="container-sm mt-3" style="max-width: 960px">
+    <div class="rounded bg-whitesmoke p-4 m-1">
+      <div class="align-self-end">
+        <p class="my-0">
+          {{page.tag|append: " | "}}{{ page.date | date: "%B %d, %Y" }}
+        </p>
+      </div>
+      <h1 class="my-0">{{ page.title }}</h1>
+      <p class="fs-3">{{page.description}}</p>
+      <article>{{ content }}</article>
+      {% include share-buttons.html %} {% if page.previous.url or
+      page.next.url %}
+      <div class="d-flex justify-content-between mt-1">
+        {% if page.previous.url %}
+        <a class="text-decoration-none text-start" href="{{page.previous.url}}">
+          <span>&laquo; Previous</span>
+          <h4 class="text-decoration-underline">{{page.previous.title}}</h4>
+        </a>
+        {% else %}
+        <div></div>
+        {% endif %} {% if page.next.url %}
+        <a class="text-decoration-none text-end" href="{{page.next.url}}">
+          <span>Next &raquo;</span>
+          <h4 class="text-decoration-underline">{{page.next.title}}</h4>
+        </a>
+        {% else %}
+        <div></div>
         {% endif %}
       </div>
+      {% endif %}
     </div>
-    {% include footer.html %} {% include scripts.html %}{% include
-    stickynav.html %}
-  </body>
+  </div>
+  {% include footer.html %} {% include scripts.html %}{% include
+  stickynav.html %}
+</body>
+
 </html>

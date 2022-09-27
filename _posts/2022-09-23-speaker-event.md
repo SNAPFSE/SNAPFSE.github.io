@@ -18,12 +18,16 @@ Participants with disabilities are encouraged to contact the SNAP Officers by E-
 {: .text-center}
 ## About Maria Reading
 
-| ![Maria Reading](/assets/maria-reading.png){: .w-50  .img-thumbnail .d-block .img-fluid} |
+<div class="w-25 float-start me-2 mb-2" style="max-width: 150px" markdown="1">
+| ![Maria Reading](/assets/maria-reading.png){: .w-100 .img-thumbnail .d-block .img-fluid} |
 | :-----------------------------------------------------------------------------------------------------------: |
 |                                              *Maria Reading*                                  |
-{: .w-25 .float-end .me-2 .mb-1}
+
+</div>
 
 Maria Reading, M.S. CCC-SLP is a Speech-Language Pathologist currently employed in a school based setting. She received a Bachelor of Science degree in Communication Sciences and Disorders from The Pennsylvania State University in 2014, and a Master of Science Degree in Speech-Language Pathology from East Stroudsburg University of Pennsylvania in 2016.  She has completed clinical work in early intervention, private clinic services, inpatient rehabilitation, and acute hospital care in addition to her school based experience. She strives to help her students achieve functional communication, allowing them complete and full access to their academic curriculum.
 {: .mb-5}
+
+<br />
 
 <br />
