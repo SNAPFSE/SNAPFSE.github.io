@@ -6,10 +6,10 @@ tag: News
 ---
 
 **Date**: 09/28/2022  
-**Time**: 5:00 PM - 6:00 PM  
+**Time**: 5:30 PM - 6:00 PM  
 **Location**: Zoom (RSVP for Link)
 
-Join SNAP for “*An Evening with Maria Reading*" on Wednesday, September 28th at 5:00 pm via Zoom! The event will last one hour and include a moderated Q&A. Tickets are not required for the event, but attendees must complete the RSVP form.
+Join SNAP for “*An Evening with Maria Reading*" on Wednesday, September 28th at 5:30 pm via Zoom! The event will last one hour and include a moderated Q&A. Tickets are not required for the event, but attendees must complete the RSVP form.
 
 
 Participants with disabilities are encouraged to contact the SNAP Officers by E-mail at `snapfse@gmail.com` for proper accommodations.
