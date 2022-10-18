@@ -4,7 +4,7 @@ title: Advisor (REAACT)
 email: connercm2@upmc.edu
 photo: ConnerCaitlin.jpg
 website: https://www.psychiatry.pitt.edu/about-us/our-people/faculty/caitlin-m-conner-phd
-category: 2
+category: 1
 ---
 
 Dr. Carla Mazefsky is a Research Assistant Professor of Psychiatry at the University of Pittsburgh. After completing a clinical internship at the University of Colorado School of Medicine, Dr. Conner earned her PhD in clinical science from Virginia Polytechnic Institute and State University in 2017. She then joined the University of Pittsburgh School of Medicine as a postdoctoral associate in the field of Autism Spectrum Disorder (ASD). 
