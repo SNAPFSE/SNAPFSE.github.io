@@ -7,8 +7,9 @@
       <article
         class="border border-dark rounded bg-whitesmoke mb-3 mt-3 p-4 mx-auto"
         style="max-width: 65em"
+        id="content"
       >
-        <h1 class="text-center">{{ page.title }}</h1>
+        <h1 id="title" class="text-center">{{ page.title }}</h1>
         {{ content }} {% include share-buttons.html %}
       </article>
     </div>
