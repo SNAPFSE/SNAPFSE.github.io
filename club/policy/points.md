@@ -1,7 +1,6 @@
 ---
 layout: page
 title: SNAP Club Point System
-permalink: /club/policy/points
 description: Join the SNAP Club Now!
 ---
 [See Document (External)](https://docs.google.com/document/d/1LVNg2yafaZ2UFrFImAlsQX4Xtxmkpf3liPeYh4gcpI4/edit?usp=sharing){: .btn .btn-primary}
