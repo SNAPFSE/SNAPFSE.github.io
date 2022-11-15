@@ -99,7 +99,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/thumbnail.png
+      image: /assets/snap_team.jpg
 
 picture:
   source: "assets"
