@@ -21,8 +21,14 @@ I have been surrounded by the neurodiverse community. My brother and sister were
 ## Our Mission
 {: .text-center}
 
-> To allow for greater communication within the neurodiverse and neurotypical communities through giving greater opportunities for new neurodiverse and neurotypical interactions and understandings.
 
+
+<div class="card">
+  <div class="card-header">Our Mission</div>
+  <div class="card-body" markdown="1">
+> To allow for greater communication within the neurodiverse and neurotypical communities through giving greater opportunities for new neurodiverse and neurotypical interactions and understandings.
+  </div>
+</div>
     
 
 [Learn More About What We're Doing](/projects/){: .btn .btn-primary}
