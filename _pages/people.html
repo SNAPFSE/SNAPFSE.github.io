@@ -5,16 +5,17 @@ permalink: /about/
 description: Meet the people behind SNAP!
 ---
 
-<div
-  class="border border-dark rounded bg-whitesmoke container-sm mb-3 justify-content-center d-flex"
->
-  <div class="p-2 text-center computer-modern w-50">
-    <p class="mb-0">
-      <em>“Alone we can do so little; together we can do so much.”</em>
-    </p>
-    <p class="text-end mb-0">- Hellen Keller -</p>
+<div class="card mb-3">
+  <div class="card-body w-75 mx-auto">
+    <blockquote class="blockquote mb-0 text-center computer-modern">
+      <p>“Alone we can do so little; together we can do so much.”</p>
+      <footer class="text-end">
+        <cite title="Hellen Keller">- Hellen Keller -</cite>
+      </footer>
+    </blockquote>
   </div>
 </div>
+
 <div class="border border-dark container rounded bg-whitesmoke mb-3 p-4">
   {% assign founders = site.people | where:"category", "0" %}{% for person in
   founders %}
