@@ -1,18 +1,36 @@
 <nav class="navbar navbar-dark navbar-expand-lg" id="navbar">
     <div class="container-fluid">
-        <a class="navbar-brand krona-one" href="{{"/" | relative_url }}">  <img src="{{site.baseurl}}/assets/logo.webp" alt="SNAP Logo" width="auto" height="30" width="30" class="d-inline-block align-text-top">
+        <a class="navbar-brand krona-one" href="{{" /" | relative_url }}"> <img src="{{site.baseurl}}/assets/logo.webp"
+                alt="SNAP Logo" width="auto" height="30" width="30" class="d-inline-block align-text-top">
             SNAP</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav ms-auto">
                 {% for item in site.data.nav.links %}
-                <li class="nav-item">
-                    <a class="nav-link {% if page.url == '{{item.url}}' %}active{% endif %}" href="{{site.url}}{{item.url}}">{{item.title}}</a>
+                {% if item.dropdown%}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        {{item.title}}
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{site.url}}{{item.url}}">{{item.title}}</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        {% for sublink in item.sublinks%}
+                        <li><a class="dropdown-item" href="{{site.url}}{{item.url}}{{sublink.url}}">{{sublink.title}}</a></li>
+                        {% endfor %}
+                    </ul>
                 </li>
+                {% else %}
+                <li class="nav-item">
+                    <a class="nav-link {% if page.url == '{{item.url}}' %}active{% endif %}"
+                        href="{{site.url}}{{item.url}}">{{item.title}}</a>
+                </li>
+                {% endif %}
                 {% endfor %}
-                
             </ul>
         </div>
     </div>

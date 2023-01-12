@@ -4,12 +4,16 @@ title: Our Story
 permalink: /story/
 description: Learn how SNAP got its start and what we're all about!
 ---
+<section id="zach-story" markdown="1" class="mb-2">
+
 | ![photo of Zachary Miller](/assets/profiles/Zachary Miller.jpeg){: .w-100 .img-thumbnail .d-block .img-fluid} |
 | :-----------------------------------------------------------------------------------------------------------: |
 |                                              **Zachary Miller**,                                              |
 |                                             *Founder & President*                                             |
-{: .w-25 .float-start .me-2 .mb-0}
-I have been surrounded by and supported by the special needs community. From my experiences, they are a close-knit group of individuals that deeply care for one another and show so much unconditional love and compassion without any judgment. My brother and sister were diagnosed with autism spectrum disorder at a young age, and, as the middle child, I have seen all aspects of the struggles in neurodiverse adolescence. My parents and I will commonly discuss different ways to help my brother and sister with their struggles whether it be academic, work, or social. As a reminder, the simplest tasks to a neurotypical kid may be the largest wall to get around for a neurodiverse child. In one of these discussions, my mother and I were conversing about my sister Addison’s social life. Addison has always been the social butterfly of the family. She wants to talk to anyone who’s willing to and is always looking to strike up a conversation and make new friends. In neurodiverse situations, this works great because there is no judgment, and Addison's peers understand her as does she. Unfortunately, in a more neurotypical-based world, there is more judgment toward those who do not act in the typical social norms. My sister's entire life has been searching for friends in school, but it is extraordinarily difficult when her peers in the classroom may not understand or accept her. Because of my love for the special needs community, I was already considering creating a program that would allow for greater interactions between the neurodiverse and neurotypical communities. As the founder of Zachary Miller’s Tutoring for Math and Science, I wanted to create a tutoring service where neurodiverse children are tutored by neurotypical adolescents. After having that initial conversation with my mom, I realized that there is even more of a need to build a bridge between the two communities. More than academics and work, both communities need an avenue of connecting. The Special Needs Assistance Program for Social Engagement, abbreviated to SNAP for short, was thus formed to give students a stronger platform and gateway between the two worlds; to give both sides a more accessible way to meet new friends.
+{: .float-start .me-2 .mb-0 width="15%"}
+I have been surrounded by the neurodiverse community. My brother and sister were both diagnosed with Autism, and I have seen the challenges that can arise during neurodiverse adolescence and continuing on into adulthood. As a family, we often discuss ways to support my siblings in their academic, work, and social goals. I have come to understand that our world sways towards neurotypical behaviors and settings that can be otherwise difficult and frustrating for those who are neurodiverse. One day, I was talking with my mother about my sister Addison's social life. Despite her outgoing nature, Addison has struggled to find friends in her neurotypical-dominated school environment. This conversation sparked my interest in creating a program that would foster greater interactions between neurodiverse and neurotypical communities. I saw the need for a program that generates a platform and gateway between the neurodiverse and neurotypical communities and allows them to form friendships easily. The Special Needs Assistance Program for Social Engagement, abbreviated as SNAP, was adopted to increase communication, interaction, and understanding between the two communities via a club at the University of Pittsburgh and the continuous development of a communication tool to help both communities more easily understand each other. <br />
+
+</section>
 
 ![SNAP Logo](/assets/square-logo.jpg){: .w-25 .rounded .mx-auto}
 {: .text-center}
@@ -17,10 +21,9 @@ I have been surrounded by and supported by the special needs community. From my 
 ## Our Mission
 {: .text-center}
 
-> _To allow for greater communication within the neurodiverse community and give greater opportunities for new neurodiverse and neurotypical interactions._
+> To allow for greater communication within the neurodiverse and neurotypical communities through giving greater opportunities for new neurodiverse and neurotypical interactions and understandings.
 
-![SNAP Pitch](https://vimeo.com/729478923)
-{: .text-center}
+    
 
 [Learn More About What We're Doing](/projects/){: .btn .btn-primary}
 {: .text-center .m-3}

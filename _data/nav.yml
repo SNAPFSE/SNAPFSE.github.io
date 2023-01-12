@@ -1,16 +1,22 @@
 links:
   - title: Home
     url: /
-  - title: Blog
-    url: /blog/
-  - title: Our Story
-    url: /story/
   - title: Projects
     url: /projects/
-  - title: Who We Are
-    url: /about/
+    dropdown: true
+    sublinks:
+      - title: Research
+        url: research/
+      - title: Club
+        url: club/
+  - title: Blog
+    url: /blog/
   - title: Club
     url: /club/
+  - title: Our Story
+    url: /story/
+  - title: Who We Are
+    url: /about/
   - title: Contribute
     url: /contribute/
   - title: Contact Us

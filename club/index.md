@@ -12,11 +12,8 @@ The SNAP club was created to create a community with greater knowledge of neurod
 
 
 # Members Area
-+ [Leadership](/contact)
 + [Points Policy](policy/points)
     + [View my Points](policy/points/view) (**Pasword Required**)
 + [Calendar](calendar)
-+ GBM Recordings (Panopto; Requires Pitt Computing Account)
-    + [GBM #1 - 09/27/2022](https://pitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b7cfa176-6761-4cde-9666-af090161c4a0)
-    + [GMB #2 - 10/05/2022](/2022/10/05/GBM)
-    + [GBM #3 - 11/02/2022](/2022/11/02/GBM)
+
+

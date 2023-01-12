@@ -4,6 +4,7 @@ title: Projects
 permalink: /projects/
 description: Learn about what we are doing at SNAP!
 ---
+
 ## SNAP App
 The SNAP App offers a new social media platform for neurodiverse friends to meet, interact, and discover one another. The app will feature:
 1. **Ability to schedule and make in-person hangout sessions**: participants can find common meeting spaces suggested by the program to hangout out and meet with new neurodiverse and neurotypical individuals.
