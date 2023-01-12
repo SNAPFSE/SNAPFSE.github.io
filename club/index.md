@@ -25,3 +25,14 @@ The SNAP club was created to create a community with greater knowledge of neurod
 </div>
 
 {% include instagram.html username="snapatpitt"%}
+
+
+<style>
+  #instafeed{
+    margin: auto;
+    padding: 0;
+  }
+  #instafeed > li{
+    margin: 0.5%;
+  }
+</style>
