@@ -18,15 +18,12 @@ I have been surrounded by the neurodiverse community. My brother and sister were
 ![SNAP Logo](/assets/square-logo.jpg){: .w-25 .rounded .mx-auto}
 {: .text-center}
 
-## Our Mission
-{: .text-center}
-
-
-
 <div class="card">
-  <div class="card-header">Our Mission</div>
-  <div class="card-body" markdown="1">
+  <div class="card-header h5">Our Mission</div>
+  <div class="card-body">
+  <div markdown="1">
 > To allow for greater communication within the neurodiverse and neurotypical communities through giving greater opportunities for new neurodiverse and neurotypical interactions and understandings.
+  </div>
   </div>
 </div>
     
@@ -36,9 +33,12 @@ I have been surrounded by the neurodiverse community. My brother and sister were
 
 ---
 
-## Our Logo
-{: .text-center} 
-
+<div class="card">
+  <div class="card-header h5">Our Logo</div>
+  <div class="card-body" markdown="1">
 ![SNAP Logo](/assets/square-logo.jpg){: .rounded .d-block .img-fluid}
 {: .float-start .m-2 style="width:13%;"}
 In nature, birds and alligators live in a harmonious relationship called mutualism—the biological, symbiotic relationship where two animals benefit one another. The bird will rest inside the alligator’s mouth and pick out any food remains in the alligator’s teeth. This feeds the bird and keeps the alligator’s mouth nice and clean. SNAP adapts this ideology to neurodiverse and neurotypical individuals. There is a uniqueness to our relationships, but something so unique and significant in that we can help one another and grow together. SNAP’s logo shows the love and support both communities should share and will continue to develop and advocate.
+  </div>
+</div>
+
