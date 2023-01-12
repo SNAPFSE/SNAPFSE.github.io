@@ -4,6 +4,15 @@
 /*------------------------------------
 - COLOR primary
 ------------------------------------*/
+.page-link {
+  color: #0a8210;
+}
+.active > .page-link,
+.page-link.active {
+  color: #06520a;
+  background-color: #8ea5f0;
+  border-color: #8ea5f0;
+}
 .alert-primary {
   color: #011002;
   background-color: #64f36b;

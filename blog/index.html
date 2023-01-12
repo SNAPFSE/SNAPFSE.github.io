@@ -25,32 +25,40 @@ description: Keep up with the latest of what's going on at SNAP
   {% endfor %}
 </div>
 
-<!-- Pagination links -->
-<div class="row items-center m-3">
-  <div class="col-sm">
-    {% if paginator.previous_page %}
-    <a
-      href="{{ paginator.previous_page_path }}"
-      class="btn btn-primary text-light"
-    >
-      Previous
-    </a>
-    {% else %}
-    <a class="disabled btn btn-primary text-light">Previous</a>
-    {% endif %}
-  </div>
-  <div class="col-sm text-center text-light">
-    <span class="page_number align-text-bottom">
-      Page: {{ paginator.page }} of {{ paginator.total_pages }}
-    </span>
-  </div>
-  <div class="col-sm text-end">
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="btn btn-primary text-light"
-      >Next</a
-    >
-    {% else %}
-    <span class="disabled btn btn-primary text-light">Next</span>
-    {% endif %}
-  </div>
+<div class="section-pagination text-center">
+    <nav class="d-table mx-auto">
+        <ul class="pagination">
+            {% if paginator.previous_page %}
+                {% if paginator.previous_page == 1 %}
+                    <li class="page-item"><a class="page-link" href="/blog">&laquo;</a></a>
+                {% else %}
+                    <li class="page-item"><a class="page-link" href="/blog/page{{ paginator.previous_page }}">&laquo;</a></li>
+                {% endif %}
+            {% else %}
+                <li class="page-item disabled"><a class="page-link" href="#">&laquo;</a></li>
+            {% endif %}
+
+            {% for i in (1..paginator.total_pages) %}
+                {% if i == 1 %}
+                    {% if paginator.page == i %}
+                        <li class="page-item active"><a class="page-link" href="#">{{ i }}</a></li>
+                    {% else %}
+                        <li class="page-item"><a class="page-link" href="/blog/">{{ i }}</a></li>
+                    {% endif %}
+                {% else %}
+                    {% if paginator.page == i %}
+                        <li class="page-item active"><a class="page-link" href="#">{{ i }}</a></li>
+                    {% else %}
+                        <li class="page-item"><a class="page-link" href="/blog/page{{ i }}">{{ i }}</a></li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+            {% if paginator.next_page %}
+                <li class="page-item"><a class="page-link" href="/blog/page{{ paginator.next_page }}">&raquo;</a></li>
+            {% else %}
+                <li class="page-item disabled"><a class="page-link" href="#">&raquo;</a></li>
+            {% endif %}
+        </ul>
+    </nav>
 </div>
