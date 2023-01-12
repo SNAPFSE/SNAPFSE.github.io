@@ -16,4 +16,12 @@ The SNAP club was created to create a community with greater knowledge of neurod
     + [View my Points](policy/points/view) (**Pasword Required**)
 + [Calendar](calendar)
 
+## Our Instagram
+<div class="mx-auto text-center my-3">
+    <div class="btn-group " role="group" aria-label="Basic example">
+        <button href="https://www.instagram.com/snapatpitt/" class="btn btn-primary"><i class="align-middle instagram-icon mt-0" style="margin-bottom: 2px;"></i></button>
+        <button href="https://www.instagram.com/snapatpitt/" class="btn btn-primary">@snapatpitt</button>
+    </div>
+</div>
 
+{% include instagram.html username="snapatpitt"%}
