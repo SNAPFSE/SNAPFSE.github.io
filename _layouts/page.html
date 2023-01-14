@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %} {% include styles.html %}
+  <head>
+    {% include head.html %}{% include scripts.html %}{% include styles.html %}
+  </head>
   <body>
     <header>{% include navbar.html %}</header>
     <div class="container">
@@ -13,7 +15,6 @@
         {{ content }} {% include share-buttons.html %}
       </article>
     </div>
-    {% include footer.html %} {% include scripts.html %}{% include
-    stickynav.html %}
+    {% include footer.html %} {% include stickynav.html %}
   </body>
 </html>

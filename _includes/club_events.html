@@ -1,0 +1,100 @@
+<div class="text-center">
+  <button
+    class="badge mx-1 rounded-pill text-bg-dark position-relative"
+    onClick='filterByTagName("all")'
+  >
+    <span
+      class="all-selector position-absolute top-50 start-0 translate-middle p-1 bg-warning border border-light rounded-circle d-none selected"
+    >
+      <span class="visually-hidden">Current Selection</span> </span
+    >&nbsp;View All Events&nbsp;
+  </button>
+  <button
+    class="badge mx-1 rounded-pill Community position-relative"
+    onClick='filterByTagName("Community")'
+  >
+    <span
+      class="Community-selector position-absolute top-50 start-0 translate-middle p-1 bg-warning border border-light rounded-circle d-none"
+    >
+      <span class="visually-hidden">Current Selection</span> </span
+    >&nbsp;Community Events&nbsp;
+  </button>
+  <button
+    class="badge mx-1 rounded-pill Speaker position-relative"
+    onClick='filterByTagName("Speaker")'
+  >
+    <span
+      class="Speaker-selector position-absolute top-50 start-0 translate-middle p-1 bg-warning border border-light rounded-circle d-none"
+    >
+      <span class="visually-hidden">Current Selection</span> </span
+    >&nbsp;Speaker Events&nbsp;
+  </button>
+</div>
+
+<div class="container">
+  {% for event in site.clubevents %}
+  <div class="card my-1" {{event.type | split: ' ' | first}}>
+    <div class="card-header">
+      <h3 class="card-title my-0">{{event.title}}</h3>
+      <p class="my-0">{{event.when}}</p>
+      <p class='my-0 badge rounded-pill {{event.type | split: " " | first}}'>
+        {{event.type}}
+      </p>
+    </div>
+    <div class="card-body">
+      <p class="card-text my-0">{{event.content | markdownify }}</p>
+      {% if event.link %}
+      <a
+        href="{{event.link}}"
+        class='btn btn-primary {{event.type | split: " " | first}}'
+        >{{event.link-text}}</a
+      >
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+  p.Community,
+  button.Community {
+    background-color: #0a8210;
+  }
+
+  p.Speaker,
+  button.Speaker {
+    background-color: #14359f;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .selected {
+    display: inline-block !important;
+  }
+</style>
+
+<script>
+  function filterByTagName(tagName) {
+    $(".selected").each((index, elem) => {
+      $(elem).removeClass("selected");
+    });
+
+    $("." + tagName + "-selector").each((index, elem) => {
+      $(elem).addClass("selected");
+    });
+
+    $(".hide").each((index, elem) => {
+      $(elem).removeClass("hide");
+    });
+
+    if (tagName != "all") {
+      $(".card").each((index, elem) => {
+        if (!elem.hasAttribute(`${tagName}`)) {
+          $(elem).addClass("hide");
+        }
+      });
+    }
+  }
+</script>
