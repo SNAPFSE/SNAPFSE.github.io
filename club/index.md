@@ -7,7 +7,7 @@ title: SNAP@Pitt
 The SNAP Club works towards promoting understanding and communication between neurodiverse and neurotypical communities by creating a platform for inclusive dialogue. The club organizes community events, volunteer opportunities, and guest speaker engagements to foster friendships, inclusivity, and education. Read more below about each event our club offers!
 
 
-[Join](https://forms.gle/wWbqzsPQ1ABUNKHb8){:.btn .btn-primary .mx-1}
+[Join](https://forms.gle/MjATDGhiowTFqfaK8){:.btn .btn-primary .mx-1}
 {:  .text-center}
 
 # What we Do
