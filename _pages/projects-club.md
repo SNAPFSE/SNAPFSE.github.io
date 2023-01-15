@@ -11,6 +11,6 @@ permalink: /projects/club/
 
 <script>
 window.onload = function() {
-    location.replace("https://snapfse.com/club/")
+    location.replace("{{'/club/'|prepend: site.baseurl }}")
 }
 </script>
