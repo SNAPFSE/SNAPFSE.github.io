@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Oh SNAP! January Edition
-description: In this month's newsletter, we will discuss the events hosted by the SNAP Club during the winter season. We will also provide updates on our progress in SNAP research, including the development of new surveys to support neurodiverse families and an AI-based app. Happy New Year!
+description: SNAP during the winter, research updates, and new surveys
 tag: Newsletter
 ---
 
