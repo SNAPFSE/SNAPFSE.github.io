@@ -5,7 +5,7 @@ type: Community Event
 link-text: Sign Up
 link: "https://forms.gle/xfmtrDNSqT59fkrQ7"
 ---
-We will create a mural that showcases the beauty and unity that arises from collaboration between two communities. We will partner with the Pittsburgh Center of Arts and Media for design and organization and use the University of Pittsburgh's Swanson School of Engineering space in Benedum Hall for painting. If you would like to take part, please sign up [below](https://forms.gle/xfmtrDNSqT59fkrQ7).
+SNAP will create a mural that showcases the beauty and unity that arises from collaboration between two communities. We will partner with the Pittsburgh Center of Arts and Media for design and organization and use the University of Pittsburgh's Swanson School of Engineering space in Benedum Hall for painting. If you would like to take part, please sign up [below](https://forms.gle/xfmtrDNSqT59fkrQ7).
 
 Contact **Zachary Miller** at [zachamiller@pitt.edu](mailto:zachamiller@pitt.edu) for any questions.
 
