@@ -106,3 +106,5 @@ picture:
   source: "assets"
   output: "assets/images/generated"
   suppress_warnings: true
+
+permalink: /blog/:year/:month/:day/:title
