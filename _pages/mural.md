@@ -19,7 +19,7 @@ published: true
 
 |![Mural](../assets/mural_demo.webp){: .w-100 .img-thumbnail}|
 | :-----------------------------------------------------------------------------------------------------------: |
-|                                              **MURAL TITLE**                                              |
+|                                              **Collaborating Communities**                                              |
 {: .mx-auto .mb-0 .w-50}
 In 2022, the Special Needs Assistance Program for Social Engagement was created with aims of increasing the engagement, awareness, and communication between the neurodiverse and neurotypical people. SNAP sought out to create opportunities to bring both groups together to create a stronger bond and better understanding of each other. Since our founding, we've worked with numerous neurodiverse organization to engage our members and the community in activities to promote inclusivity bonding.
 
