@@ -2,7 +2,7 @@
 title: SNAP Mural
 permalink: /mural/
 layout: page
-published: false
+published: true
 ---
 
 <div class="card mb-3">
