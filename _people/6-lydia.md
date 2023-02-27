@@ -1,5 +1,6 @@
 ---
 name: Lydia Wayman
+title: Committee Member
 email: lydiawayman@gmail.com
 category: 3
 photo: Lydia Wayman.jpg
