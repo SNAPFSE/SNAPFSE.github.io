@@ -89,10 +89,11 @@ description: Meet the people behind SNAP!
   </div>
   {% endfor %}
 </div>
+
 <div class="border border-dark container rounded bg-whitesmoke mb-3 p-4">
-  <p class="display-6">SNAP Committee</p>
-  {% assign cmte = site.people | where:"category", "2" %} {% for person in cmte
-  %}
+  <p class="display-6">SNAP Leadership Board</p>
+  {% assign ugrad = site.people | where:"category", "3" %} {% for person in
+  ugrad %}
   <div class="row">
     <hr class="mb-3" />
     <div class="col-12 col-lg-3">
@@ -126,9 +127,9 @@ description: Meet the people behind SNAP!
   {% endfor %}
 </div>
 <div class="border border-dark container rounded bg-whitesmoke mb-3 p-4">
-  <p class="display-6">Undergraduate SNAP Committee</p>
-  {% assign ugrad = site.people | where:"category", "3" %} {% for person in
-  ugrad %}
+  <p class="display-6">SNAP Committee</p>
+  {% assign cmte = site.people | where:"category", "2" %} {% for person in cmte
+  %}
   <div class="row">
     <hr class="mb-3" />
     <div class="col-12 col-lg-3">

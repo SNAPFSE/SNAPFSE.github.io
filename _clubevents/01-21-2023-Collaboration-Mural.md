@@ -4,6 +4,7 @@ when: January 21st 2023 - February 2023
 type: Community Event
 link-text: Sign Up
 link: "https://forms.gle/xfmtrDNSqT59fkrQ7"
+past: true
 ---
 SNAP will create a mural that showcases the beauty and unity that arises from collaboration between two communities. We will partner with the Pittsburgh Center of Arts and Media for design and organization and use the University of Pittsburgh's Swanson School of Engineering space in Benedum Hall for painting. If you would like to take part, please sign up [below](https://forms.gle/xfmtrDNSqT59fkrQ7).
 

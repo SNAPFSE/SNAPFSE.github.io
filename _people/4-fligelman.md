@@ -1,6 +1,6 @@
 ---
 name: Nathan Fligelman
-title: Secretary
+title: Vice President
 email: NLF40@pitt.edu
 category: 3
 photo: Nathan Fligelman.jpg

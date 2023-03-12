@@ -33,6 +33,7 @@
 
 <div class="container">
   {% for event in site.clubevents %}
+  {% unless event.past %}
   <div class="card my-1" {{event.type | split: ' ' | first}}>
     <div class="card-header">
       <h3 class="card-title my-0">{{event.title}}</h3>
@@ -52,7 +53,44 @@
       {% endif %}
     </div>
   </div>
+  {% endunless %}
   {% endfor %}
+</div>
+
+<p class="text-center mt-3">
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePastEvent" aria-expanded="false" aria-controls="collapsePastEvent">
+    Click here to view past events
+  </button>
+</p>
+<div class="collapse" id="collapsePastEvent">
+  <div>
+    <p class="text-center display-6">Past Events</p>
+    <div class="container">
+      {% for event in site.clubevents %}
+      {% if event.past %}
+      <div class="card my-1" {{event.type | split: ' ' | first}}>
+        <div class="card-header">
+          <h3 class="card-title my-0">{{event.title}}</h3>
+          <p class="my-0">{{event.when}}</p>
+          <p class='my-0 badge rounded-pill {{event.type | split: " " | first}}'>
+            {{event.type}}
+          </p>
+        </div>
+        <div class="card-body">
+          <p class="card-text my-0">{{event.content | markdownify }}</p>
+          {% if event.link %}
+          <a
+            href="{{event.link}}"
+            class='btn btn-primary {{event.type | split: " " | first}}'
+            >{{event.link-text}}</a
+          >
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
 
 <style>
