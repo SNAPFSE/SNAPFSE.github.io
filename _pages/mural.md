@@ -6,8 +6,8 @@ published: true
 ---
 
 <div class="card mb-3">
-  <div class="card-body w-75 mx-auto">
-    <blockquote class="blockquote mb-0 text-center computer-modern">
+  <div class="card-body mx-auto">
+    <blockquote class="blockquote mb-0 mx-0 px-0 text-center computer-modern">
       <p>“Diversity and inclusion, which are the real grounds for creativity, must remain at the center of what we do.”</p>
       <footer class="text-end">
       </footer>
@@ -21,7 +21,7 @@ published: true
 | :-----------------------------------------------------------------------------------------------------------: |
 |                                              **Collaborating Communities**                                              |
 {: .mx-auto .mb-0 .w-50}
-In 2022, the Special Needs Assistance Program for Social Engagement was created with aims of increasing the engagement, awareness, and communication between the neurodiverse and neurotypical people. SNAP sought out to create opportunities to bring both groups together to create a stronger bond and better understanding of each other. Since our founding, we've worked with numerous neurodiverse organization to engage our members and the community in activities to promote inclusivity bonding.
+In 2022, the Spreading Neurodiversity Acceptance Project for Social Engagement was created with aims of increasing the engagement, awareness, and communication between the neurodiverse and neurotypical people. SNAP sought out to create opportunities to bring both groups together to create a stronger bond and better understanding of each other. Since our founding, we've worked with numerous neurodiverse organizations to engage our members and the community in activities to promote inclusivity bonding.
 
 Recently, SNAP partnered with the Pittsburgh Center for Art and Media (a non-profit organization that focuses on using art to bring the Pittsburgh community together) and artist Alison Zapata to help create a mural on Pitt's campus. The mural, designed by Alison Zapata, is inspired by the neurodiversity sign and signifies a path towards a more inclusive environment.
 
@@ -50,7 +50,7 @@ Maria Rajakovich
 Mary Stanton  
 Nathan Fligelman  
 Nellia Kostadinova  
-Sam and Larry Miller  
+Sam Miller  
 Sarah Truitt  
 Shinwoo Kim  
 Sreeveda Sreepada  
